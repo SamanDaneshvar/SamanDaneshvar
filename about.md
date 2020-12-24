@@ -62,12 +62,8 @@ layout: page
 	<li><strong>Semantic relatedness and textual entailment</strong>
 		<p style="margin-top: 0">Predicted relatedness of sentence pairs by training a deep learning classifier. Achieved 82% accuracy on entailment and 0.83 Pearson correlation score on relatedness, both of which are comparable to the top three competitors of the shared task at SemEval-2014. [Python]</p>
 	</li>
-	<li><strong>IBM Watson for Cyber Security</strong>
-		<p style="margin-top: 0"></p>
-	</li>
-	<li><strong>Mental Health Detection on Social Media</strong>
-		<p style="margin-top: 0"></p>
-	</li>
+	<li><strong>IBM Watson for Cyber Security</strong></li>
+	<li><strong>Mental Health Detection on Social Media</strong></li>
 </ul>
 
 <h4 style="margin-bottom: 0">Project Planning and Control</h4>
