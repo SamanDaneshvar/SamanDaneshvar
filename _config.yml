@@ -16,8 +16,8 @@ resume: false
 resume-external: true
 resume-url: https://google.com/?q=Saman+Daneshvar+resume
 
-url: https://samandaneshvar.github.io
 # your url: https://USERNAME.github.io
+url: https://samandaneshvar.github.io
 
 permalink: /:title/
 
