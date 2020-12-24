@@ -50,18 +50,24 @@ layout: page
 	<li><strong>User profiling in social media</strong>
 		<p style="margin-top: 0">Identified characteristics of social media users (e.g. gender and age) based on the contents of their tweets. Trained deep learning (e.g., vanilla RNN, LSTM) and classical machine learning (e.g., SVM, logistic regression) models. Processed a dataset of 22+ thousand users and 24+ million tweets and achieved 80% accuracy. Research funded by a grant from Natural Sciences and Engineering Research Council of Canada (NSERC). [Python]</p>
 	</li>
-	<li><b>Author profiling</b>
+	<li><strong>Author profiling</strong>
 		<p style="margin-top: 0">Achieved the best-performing model, outperforming 22 teams at the PAN 2018 Shared Task on Twitter Gender detection (machine learning task). SVM, logistic regression, Naïve Bayes. [Python]</p>
 	</li>
 	<li><strong>Staff scheduler</strong>
 		<p style="margin-top: 0">Designed and engineered a generative simulation model for a restaurant staff scheduler that maximizes average customer satisfaction through minimizing wait time and cost. Implemented Monte Carlo Simulation and Bayesian Inference methods. [Java]</p>
 	</li>
-	<li>Crowd-sourced product prices data mart
+	<li><strong>Crowd-sourced product prices data mart<strong>
+		<p style="margin-top: 0">Predicted product association with the Apriori technique and classification using a decision tree. Designed a relational database with data staging, OLAP queries, OLAP end-user interface, and data mining. [Python, SQL]</p>
+	</li>
+	<li><strong>Semantic relatedness and textual entailment</strong>
+		<p style="margin-top: 0">Predicted relatedness of sentence pairs by training a deep learning classifier. Achieved 82% accuracy on entailment and 0.83 Pearson correlation score on relatedness, both of which are comparable to the top three competitors of the shared task at SemEval-2014. [Python]</p>
+	</li>
+	<li><strong>IBM Watson for Cyber Security</strong>
 		<p style="margin-top: 0"></p>
 	</li>
-	<li>Semantic relatedness and textual entailment</li>
-	<li>IBM Watson for Cyber Security</li>
-	<li>Mental Health Detection on Social Media</li>
+	<li><strong>Mental Health Detection on Social Media</strong>
+		<p style="margin-top: 0"></p>
+	</li>
 </ul>
 
 <h4 style="margin-bottom: 0">Project Planning and Control</h4>
