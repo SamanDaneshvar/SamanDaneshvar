@@ -4,11 +4,8 @@ layout: page
 ---
 
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
-<h1 class="title">{{ site.name }}</h1>
-<h2 class="description">{{ site.bio }}</h2>
-
-<h2 style="margin-bottom: 0">{{ site.name }}</h2>
-<p style="margin-top: 0">{{ site.bio }}</p>
+<h1 class="title" style="margin-bottom: 0">{{ site.name }}</h1>
+<h2 class="description" style="margin-top: 0">{{ site.bio }}</h2>
 
 <p align="justify">4+ years of experience in Machine Learning and Deep Learning with a focus on NLP, where I have released open-source projects and published academic papers at international conferences. Strong engineering background and a solid understanding of Python, Java, C and SQL. Detail-oriented with an eye on the big picture.</p>
 
