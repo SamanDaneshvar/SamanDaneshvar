@@ -34,14 +34,14 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: Saman.Daneshvar
+twitter: SamanDaneshvar
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: mylinkedin
+linkedin: SamanDaneshvar
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: SamanDaneshvar
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
@@ -58,7 +58,7 @@ authors:
     bio: Data Science, Machine Learning, and NLP Engineer
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: mytwitter
+    twitter: SamanDaneshvar
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
