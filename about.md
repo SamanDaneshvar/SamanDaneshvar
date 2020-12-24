@@ -4,6 +4,9 @@ layout: page
 ---
 
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+<h1 class="title">{{ site.name }}</h1>
+<h2 class="description">{{ site.bio }}</h2>
+
 <h2 style="margin-bottom: 0">{{ site.name }}</h2>
 <p style="margin-top: 0">{{ site.bio }}</p>
 
