@@ -4,7 +4,7 @@ layout: page
 ---
 
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
-</h1>Saman Daneshvar</h1>
+<h1>Saman Daneshvar</h1>
 Data Science, Machine Learning, and NLP Engineer
 
 <p>4+ years of experience in Machine Learning and Deep Learning with a focus on NLP, where I have released open-source projects and published academic papers at international conferences. Strong engineering background and a solid understanding of Python, Java, C and SQL. Detail-oriented with an eye on the big picture.</p>
@@ -42,7 +42,7 @@ Data Science, Machine Learning, and NLP Engineer
 </ul>
 
 <h2>Professional Experience and Projects</h2>
-<h3>Machine Learning and NLP Research Assistant, University of Ottawa, Sep 2016 – Oct 2019<h3>
+<h3>Machine Learning and NLP Research Assistant, University of Ottawa, Sep 2016 – Oct 2019</h3>
 <ul>
 	<li>User profiling in social media</li>
 	<li>Author profiling</li>
@@ -52,5 +52,5 @@ Data Science, Machine Learning, and NLP Engineer
 	<li>IBM Watson for Cyber Security</li>
 	<li>Mental Health Detection on Social Media</li>
 </ul>
-<h3>Project Planning and Control, Datak Telecom, Jan 2015 – Aug 2016<h3>
-<h3>Research Assistant, New Technologies Research Center (NTRC), AUT, Sep 2011 – Nov 2014<h3>
+<h3>Project Planning and Control, Datak Telecom, Jan 2015 – Aug 2016</h3>
+<h3>Research Assistant, New Technologies Research Center (NTRC), AUT, Sep 2011 – Nov 2014</h3>
