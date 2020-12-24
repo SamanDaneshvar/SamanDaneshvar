@@ -4,7 +4,7 @@ layout: page
 ---
 
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
-<h2>Saman Daneshvar</h2>
+<h2 style="margin-bottom: 0px;">Saman Daneshvar</h2>
 <p>Data Science, Machine Learning, and NLP Engineer</p>
 
 <p align="justify">4+ years of experience in Machine Learning and Deep Learning with a focus on NLP, where I have released open-source projects and published academic papers at international conferences. Strong engineering background and a solid understanding of Python, Java, C and SQL. Detail-oriented with an eye on the big picture.</p>
