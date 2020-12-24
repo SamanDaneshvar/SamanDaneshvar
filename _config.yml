@@ -3,7 +3,7 @@ name: Saman Daneshvar
 bio: Data Science, Machine Learning, and NLP Engineer
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A personal blog
 
 # if it's an external image, update below for true
 # better with square images
@@ -17,7 +17,7 @@ resume-external: true
 resume-url: https://google.com/?q=Saman+Daneshvar+resume
 
 # your url
-url: https://samandaneshvar.github.io/SamanDaneshvar
+url: https://samandaneshvar.github.io/personal-page
 
 permalink: /:title/
 
