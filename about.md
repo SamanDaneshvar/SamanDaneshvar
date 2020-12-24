@@ -8,7 +8,7 @@ layout: page
 
 <p>Paragraph 2</p>
 
-<h2>Technical Skills</h2>
+<h1>Technical Skills</h1>
 <ul class="skill-list">
 	<li>Python</li>
 	<li>Java</li>
@@ -38,8 +38,8 @@ layout: page
 	<li>MS Project</li>
 </ul>
 
-<h2>Projects</h2>
+<h2>Professional Experience and Projects</h2>
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
+	<li></li>
+	<li></li>
 </ul>
