@@ -56,7 +56,7 @@ layout: page
 	<li><strong>Staff scheduler</strong>
 		<p style="margin-top: 0">Designed and engineered a generative simulation model for a restaurant staff scheduler that maximizes average customer satisfaction through minimizing wait time and cost. Implemented Monte Carlo Simulation and Bayesian Inference methods. [Java]</p>
 	</li>
-	<li><strong>Crowd-sourced product prices data mart<strong>
+	<li><strong>Crowd-sourced product prices data mart</strong>
 		<p style="margin-top: 0">AAA Some safe text!</p>
 	</li>
 	<li><strong>Semantic relatedness and textual entailment</strong>
