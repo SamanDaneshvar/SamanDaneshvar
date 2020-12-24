@@ -42,12 +42,12 @@ layout: page
 <h2>Professional Experience and Projects</h2>
 
 <h4 style="margin-bottom: 0">Founder</h4>
-<p style="margin-top: 0"><a href="https://pythonasap.com">Python ASAP</a></p>
+<p style="margin-top: 0"><a href="https://pythonasap.com">Python ASAP</a>, 2020</p>
 
 <h4 style="margin-bottom: 0">Machine Learning and NLP Research Assistant</h4>
 <p style="margin-top: 0">University of Ottawa, Sep 2016 – Oct 2019</p>
 <ul>
-	<li>User profiling in social media
+	<li><strong>User profiling in social media</strong>
 		<p>Identified characteristics of social media users (e.g. gender and age) based on the contents of their tweets. Trained deep learning (e.g., vanilla RNN, LSTM) and classical machine learning (e.g., SVM, logistic regression) models. Processed a dataset of 22+ thousand users and 24+ million tweets and achieved 80% accuracy. Research funded by a grant from Natural Sciences and Engineering Research Council of Canada (NSERC). [Python]</p>
 	</li>
 	<li>Author profiling</li>
