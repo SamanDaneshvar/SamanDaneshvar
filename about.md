@@ -57,7 +57,7 @@ layout: page
 		<p style="margin-top: 0">Designed and engineered a generative simulation model for a restaurant staff scheduler that maximizes average customer satisfaction through minimizing wait time and cost. Implemented Monte Carlo Simulation and Bayesian Inference methods. [Java]</p>
 	</li>
 	<li><strong>Crowd-sourced product prices data mart<strong>
-		<p style="margin-top: 0">Predicted product association with the Apriori technique and classification using a decision tree. Designed a relational database with data staging, OLAP queries, OLAP end-user interface, and data mining. [Python, SQL]</p>
+		<p style="margin-top: 0">AAA Some safe text!</p>
 	</li>
 	<li><strong>Semantic relatedness and textual entailment</strong>
 		<p style="margin-top: 0">Predicted relatedness of sentence pairs by training a deep learning classifier. Achieved 82% accuracy on entailment and 0.83 Pearson correlation score on relatedness, both of which are comparable to the top three competitors of the shared task at SemEval-2014. [Python]</p>
