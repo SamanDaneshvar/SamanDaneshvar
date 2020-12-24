@@ -34,22 +34,21 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
+linkedin: SamanDaneshvar
+github: SamanDaneshvar
+# gitlab: mygitlab
+# medium: mymedium
+# stackoverflow: 7044681/mystackoverflow
+# quora: myquora
+# reddit: myreddit
+# youtube: myyoutube
 facebook: Saman.Daneshvar
 twitter: SamanDaneshvar
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: SamanDaneshvar
-# youtube: myyoutube
 # spotify: myspotify
-github: SamanDaneshvar
-# gitlab: mygitlab
 # lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
-# quora: userquora
-# reddit: username
-# medium: medium
 # vimeo: myvimeo
-# lanyrd: mylanyrd
 email: Saman@Daneshvar.org
 
 authors:
