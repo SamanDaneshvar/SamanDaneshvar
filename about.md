@@ -41,6 +41,9 @@ layout: page
 
 <h2>Professional Experience and Projects</h2>
 
+<h4 style="margin-bottom: 0">Founder</h4>
+<p style="margin-top: 0"><a href="https://pythonasap.com">Python ASAP</a></p>
+
 <h4 style="margin-bottom: 0">Machine Learning and NLP Research Assistant</h4>
 <p style="margin-top: 0">University of Ottawa, Sep 2016 – Oct 2019</p>
 <ul>
