@@ -4,7 +4,7 @@ layout: page
 ---
 
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
-<h2>Saman Daneshvar</h2>
+<h2 style="margin-bottom: 0">Saman Daneshvar</h2>
 <p style="margin-top: 0">Data Science, Machine Learning, and NLP Engineer</p>
 
 <p align="justify">4+ years of experience in Machine Learning and Deep Learning with a focus on NLP, where I have released open-source projects and published academic papers at international conferences. Strong engineering background and a solid understanding of Python, Java, C and SQL. Detail-oriented with an eye on the big picture.</p>
@@ -40,8 +40,9 @@ layout: page
 </ul>
 
 <h2>Professional Experience and Projects</h2>
-<h4>Machine Learning and NLP Research Assistant</h4>
-University of Ottawa, Sep 2016 – Oct 2019
+
+<h4 style="margin-bottom: 0">Machine Learning and NLP Research Assistant</h4>
+<p style="margin-top: 0">University of Ottawa, Sep 2016 – Oct 2019</p>
 <ul>
 	<li>User profiling in social media</li>
 	<li>Author profiling</li>
@@ -51,5 +52,9 @@ University of Ottawa, Sep 2016 – Oct 2019
 	<li>IBM Watson for Cyber Security</li>
 	<li>Mental Health Detection on Social Media</li>
 </ul>
-<h4>Project Planning and Control<br>Datak Telecom, Jan 2015 – Aug 2016</h4>
-<h4>Research Assistant<br>New Technologies Research Center (NTRC), AUT, Sep 2011 – Nov 2014</h4>
+
+<h4 style="margin-bottom: 0">Project Planning and Control</h4>
+<p style="margin-top: 0">Datak Telecom, Jan 2015 – Aug 2016</p>
+
+<h4 style="margin-bottom: 0">Research Assistant</h4>
+<p style="margin-top: 0">New Technologies Research Center (NTRC), AUT, Sep 2011 – Nov 2014</p>
