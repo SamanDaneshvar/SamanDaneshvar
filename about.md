@@ -4,18 +4,38 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Paragraph 1</p>
+<p>4+ years of experience in Machine Learning and Deep Learning with a focus on NLP, where I have released open-source projects and published academic papers at international conferences. Strong engineering background and a solid understanding of Python, Java, C and SQL. Detail-oriented with an eye on the big picture.</p>
 
 <p>Paragraph 2</p>
 
-<h2>Skills</h2>
+<h2>Technical Skills</h2>
 <ul class="skill-list">
+	<li>Python</li>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>C</li>
+	<li>C++</li>
+	<li>R</li>
+	<li>SQL</li>
+	<li>MATLAB</li>
+	<li>Simulink</li>
 	<li>HTML</li>
 	<li>CSS</li>
-	<li>Javascript</li>
-	<li>Git</li>
-	<li>Python</li>
-	<li>MySQL</li>
+	<li>Keras</li>
+	<li>TensorFlow</li>
+	<li>scikit-learn</li>
+	<li>NumPy</li>
+	<li>Pandas</li>
+	<li>Matplotlib</li>
+	<li>seaborn</li>
+	<li>NLTK</li>
+	<li>WEKA</li>
+	<li>Elasticsearch</li>
+	<li>Git and version control</li>
+	<li>GNU Octave</li>
+	<li>Maple</li>
+	<li>Excel</li>
+	<li>MS Project</li>
 </ul>
 
 <h2>Projects</h2>
