@@ -50,10 +50,10 @@ layout: page
 	<li><strong>User profiling in social media</strong>
 		<p style="margin-top: 0">Identified characteristics of social media users (e.g. gender and age) based on the contents of their tweets. Trained deep learning (e.g., vanilla RNN, LSTM) and classical machine learning (e.g., SVM, logistic regression) models. Processed a dataset of 22+ thousand users and 24+ million tweets and achieved 80% accuracy. Research funded by a grant from Natural Sciences and Engineering Research Council of Canada (NSERC). [Python]</p>
 	</li>
-	<li>Author profiling
+	<li><b>Author profiling</b>
 		<p style="margin-top: 0">Achieved the best-performing model, outperforming 22 teams at the PAN 2018 Shared Task on Twitter Gender detection (machine learning task). SVM, logistic regression, Naïve Bayes. [Python]</p>
 	</li>
-	<li>Staff scheduler
+	<li><strong>Staff scheduler</strong>
 		<p style="margin-top: 0">Designed and engineered a generative simulation model for a restaurant staff scheduler that maximizes average customer satisfaction through minimizing wait time and cost. Implemented Monte Carlo Simulation and Bayesian Inference methods. [Java]</p>
 	</li>
 	<li>Crowd-sourced product prices data mart
