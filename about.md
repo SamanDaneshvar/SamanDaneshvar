@@ -40,7 +40,8 @@ layout: page
 </ul>
 
 <h2>Professional Experience and Projects</h2>
-<h4>Machine Learning and NLP Research Assistant<br>University of Ottawa, Sep 2016 – Oct 2019</h4>
+<h4>Machine Learning and NLP Research Assistant</h4>
+University of Ottawa, Sep 2016 – Oct 2019
 <ul>
 	<li>User profiling in social media</li>
 	<li>Author profiling</li>
