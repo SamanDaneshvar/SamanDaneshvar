@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+<img alt="Profile Image" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
 <h1 class="title" style="margin-bottom: 0">{{ site.name }}</h1>
 <h2 class="description" style="margin-top: 0">{{ site.bio }}</h2>
 
