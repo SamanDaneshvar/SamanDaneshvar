@@ -17,7 +17,7 @@ resume-external: true
 resume-url: https://google.com/?q=Saman+Daneshvar+resume
 
 # your url
-url: https://samandaneshvar.github.io/personal-page
+url: https://saman.daneshvar.org
 
 permalink: /:title/
 
