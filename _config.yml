@@ -22,7 +22,7 @@ url: https://saman.daneshvar.org
 permalink: /:title/
 
 # To enable Google Analytics, supply your token below.
-analytics-google: G-GTWX2ZL9CG
+google-analytics: G-GTWX2ZL9CG
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
