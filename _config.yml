@@ -1,10 +1,8 @@
 url: https://saman.daneshvar.org
 
-# Used in the text of the home page and the title of all pages.
+# Used in the text of the home page and the title and description metatag of all pages.
 name: Saman Daneshvar
 bio: Machine Learning, Data Science, and NLP Engineer
-
-# Twitter summary info
 description: A personal blog
 
 # If it's an external image, update below for true
