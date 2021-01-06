@@ -1,11 +1,13 @@
-# main text of home
+url: https://saman.daneshvar.org
+
+# Used in the text of the home page and the title of all pages.
 name: Saman Daneshvar
 bio: Machine Learning, Data Science, and NLP Engineer
 
-# twitter summary info
+# Twitter summary info
 description: A personal blog
 
-# if it's an external image, update below for true
+# If it's an external image, update below for true
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
@@ -16,20 +18,17 @@ resume: false
 resume-external: true
 resume-url: https://google.com/?q=Saman+Daneshvar+resume
 
-# your url
-url: https://saman.daneshvar.org
-
 permalink: /:title/
 
 # To enable Google Analytics, supply your token below.
 google-analytics: G-GTWX2ZL9CG
 
-# if you don't want comments in your posts, leave categories empty
+# If you don't want comments in your posts, leave categories empty
 disqus:
   shortname: mydisqus # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
-# if you don't have any of social below, comment the line
+# If you don't have any of social below, comment the line
 linkedin: SamanDaneshvar
 github: SamanDaneshvar
 # gitlab: mygitlab
@@ -48,19 +47,19 @@ twitter: SamanDaneshvar
 email: Saman@Daneshvar.org
 
 authors:
-  johndoe:
+  saman:
     name: Saman Daneshvar
     bio: Data Science, Machine Learning, and NLP Engineer
     external-image: false
     picture: assets/images/profile.jpg
     twitter: SamanDaneshvar
 
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
+# Do you want a larger site? change the option below
+# Options: [normal, large] | default: normal
 # normal = 560px / large = 810px
 width: normal
 
-# if you do/don't need pagination, toggle 'enabled' between true/false below
+# If you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
   enabled: false
   sort_reverse: true # display recent posts first
@@ -68,30 +67,30 @@ pagination:
   per_page: 5
   permalink: "/:num/" # pagination link that will be appended
 
-# if you don't need projects, about, or blog, comment them below
+# If you don't need projects, about, or blog, comment them below
 projects: true
 about: true
 # blog: true
 
-# do you want to show the "read time" of the posts?
+# Do you want to show the "read time" of the posts?
 read-time: true
 
-# do you want to show the "tags" inside the posts?
+# Do you want to show the "tags" inside the posts?
 show-tags: true
 
-# related posts inside a post?
+# Related posts inside a post?
 related: true
 
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
 
-# show author block at the end of a post ?
+# Show author block at the end of a post ?
 show-author: true
 
-# do you want some animations?
+# Do you want some animations?
 animation: true
 
-# add default values to specific pages or layouts
+# Add default values to specific pages or layouts
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
