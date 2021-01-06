@@ -8,7 +8,17 @@ layout: compress
     {% if site.google-analytics %}
         {% include google-analytics.html %}
     {% endif %}
-
+    
+    <title>
+        {% if page.title_override %}
+            {{ page.title_override }}
+        {% elsif page.title == "Home" %}
+            {{ site.name }} | {{ site.bio }}
+        {% else %}
+            {{ page.title }} | {{ site.name }}
+        {% endif %}
+    </title>
+    
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name=author content="{{ site.name }}">
@@ -17,7 +27,7 @@ layout: compress
     {% seo %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
 
     <style>
     {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
