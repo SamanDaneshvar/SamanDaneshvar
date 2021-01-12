@@ -28,11 +28,12 @@ disqus:
   shortname: mydisqus # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
-# If you don't have any of social below, comment the line
+# If you don't have any of the social media accounts below, comment the line
 linkedin: SamanDaneshvar
 github: SamanDaneshvar
 # gitlab: mygitlab
 google-scholar: l3-hk7sAAAAJ
+orcid: 0000-0001-8780-7955
 # medium: mymedium
 # stackoverflow: 7044681/mystackoverflow
 # quora: myquora

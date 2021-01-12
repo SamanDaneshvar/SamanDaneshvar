@@ -23,6 +23,12 @@
         </a>
     {% endif %}
 
+    {% if site.orcid %}
+        <a class="link" data-title="orcid.org/{{ site.orcid }}" href="https://orcid.org/{{ site.orcid }}" target="_blank">
+            <svg class="icon icon-orcid"><use xlink:href="#icon-orcid"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.medium %}
         <a class="link" data-title="medium.com/@{{ site.medium }}" href="https://medium.com/@{{ site.medium }}" target="_blank">
             <svg class="icon icon-medium"><use xlink:href="#icon-medium"></use></svg>
