@@ -17,6 +17,12 @@
         </a>
     {% endif %}
 
+    {% if site.google-scholar %}
+        <a class="link" data-title="scholar.google.com/citations?user={{ site.google-scholar }}" href="https://scholar.google.com/citations?user={{ site.google-scholar }}" target="_blank">
+            <svg class="icon icon-google-scholar"><use xlink:href="#icon-google-scholar"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.medium %}
         <a class="link" data-title="medium.com/@{{ site.medium }}" href="https://medium.com/@{{ site.medium }}" target="_blank">
             <svg class="icon icon-medium"><use xlink:href="#icon-medium"></use></svg>
