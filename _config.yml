@@ -92,15 +92,20 @@ show-author: true
 # Do you want some animations?
 animation: true
 
-# Add default values to specific pages or layouts
+# Add default values to specific pages, files, or layouts.
+# These values can be overridden in the front matter of a specific page.
 defaults:
+  # Set all posts to not hidden by default.
   - scope:
       path: "" # an empty string here means all files in the project
       layout: "post"
     values:
-      # setting all posts to not hidden by default,
-      # can be overridden in the front matter for a specific post
       hidden: false
+  # Exclude the Google site verification file from the sitemap.
+  - scope:
+      path: "google90a8e9306955aaea.html"
+    values:
+      sitemap: false
 
 plugins:
   - jekyll-seo-tag
