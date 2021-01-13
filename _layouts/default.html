@@ -19,6 +19,10 @@ layout: compress
         {% endif %}
     </title>
     
+	<!-- Note that in Liquid, *nil* is not equal to *false*, even though both evaluate to *falsy* -->
+	{% if page.sitemap == false %}
+		<meta name="robots" content="noindex">
+	{% endif %}
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name=author content="{{ site.name }}">
@@ -27,7 +31,7 @@ layout: compress
     
     {% seo %}
 
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <link rel="canonical" href="{{ site.url }}/{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
 
     <style>
