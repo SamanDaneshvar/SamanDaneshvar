@@ -98,7 +98,7 @@ defaults:
       path: "" # an empty string here means all files in the project
       layout: "post"
     values:
-      # setting all post to not hidden by default,
+      # setting all posts to not hidden by default,
       # can be overridden in the front matter for a specific post
       hidden: false
 
