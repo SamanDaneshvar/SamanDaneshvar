@@ -46,7 +46,11 @@ twitter: SamanDaneshvar
 # spotify: myspotify
 # lastfm: mylastfm
 # vimeo: myvimeo
-email: Saman@Daneshvar.org
+email-username: Saman
+email-domain: Daneshvar.org
+# Enter the phone numbers in reverse (for bot protection)
+phone: 1316-604 )316(
+phone-url: 1316-604-316-1+:let
 
 authors:
   saman:
