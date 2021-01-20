@@ -6,6 +6,8 @@ Alternatively, you can remove the type='module' attribute from the <script> elem
 defined in the <script> element will have a global scope. However, modules are always deferred, and that's why we have used a module here.
 */
 window.reveal = function(element) {
+  console.log(element.getAttribute("data-title"));
+  
   if (element.id == "email") {
     const ADDRESS = "{{ site.email-username }}" + String.fromCharCode(64) + "{{ site.email-domain }}";
     element["data-title"] = ADDRESS;
@@ -14,5 +16,7 @@ window.reveal = function(element) {
     element["data-title"] = "{{ site.phone }}".split("").reverse().join("");
     element["href"] = "{{ site.phone-url }}".split("").reverse().join("");
   }
+  
+  console.log(element.getAttribute("data-title"));
 };
 </script>
