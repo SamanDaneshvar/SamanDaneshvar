@@ -5,59 +5,56 @@ layout: compress
 <html lang="en">
 <head>
 
-    {% if site.google-analytics %}
-        {% include google-analytics.html %}
-    {% endif %}
-    
-    <title>
-        {% if page.title_override %}
-            {{ page.title_override }}
-        {% elsif page.title == "Home" %}
-            {{ site.name }} | {{ site.bio }}
-        {% else %}
-            {{ page.title }} | {{ site.name }}
-        {% endif %}
-    </title>
-    
-	<!-- Note that in Liquid, *nil* is not equal to *false*, even though both evaluate to *falsy* -->
-	{% if page.sitemap == false %}
-		<meta name="robots" content="noindex">
+{% if site.google-analytics %}
+	{% include google-analytics.html %}
+{% endif %}
+
+<title>
+	{% if page.title_override %}
+		{{ page.title_override }}
+	{% elsif page.title == "Home" %}
+		{{ site.name }} | {{ site.bio }}
+	{% else %}
+		{{ page.title }} | {{ site.name }}
 	{% endif %}
-    <meta charset="utf-8">
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <meta name=author content="{{ site.name }}">
-	<meta name="description" content="{{ site.description }}">
-    <meta name="google-site-verification" content="5yTVGipNgEj_T4EaMDBrSh-1xf_sIr16dVoPp8EzPAQ" />
-    
-    {% seo %}
+</title>
 
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}"/>
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml"/>
+<meta name="description" content="{{ site.description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}"/>
+<!-- Note that in Liquid, *nil* is not equal to *false*, even though both evaluate to *falsy* -->
+{% if page.sitemap == false %}
+	<meta name="robots" content="noindex">
+{% endif %}
+<meta charset="utf-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name=author content="{{ site.name }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml"/>
+<meta name="google-site-verification" content="5yTVGipNgEj_T4EaMDBrSh-1xf_sIr16dVoPp8EzPAQ" />
 
-    <style>
-    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
-    {{ scss_sheet | scssify }}
-    </style>
+<style>
+{% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+{{ scss_sheet | scssify }}
+</style>
 
 </head>
 <body>
 
-    <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
-        {% if page.tag %}
-            <div class="post">
-        {% else %}
-            {% if showHeader != true %}
-                <div class="page {{ page.title | downcase }}">
-            {% else %}
-                <div class="{{ page.title | downcase }}">
-            {% endif %}
-        {% endif %}
+<div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
+	{% if page.tag %}
+		<div class="post">
+	{% else %}
+		{% if showHeader != true %}
+			<div class="page {{ page.title | downcase }}">
+		{% else %}
+			<div class="{{ page.title | downcase }}">
+		{% endif %}
+	{% endif %}
 
-            {{ content }}
-        </div>
-    </div>
+		{{ content }}
+	</div>
+</div>
 
-    {% include icons.html %}
+{% include icons.html %}
 
 </body>
 </html>
