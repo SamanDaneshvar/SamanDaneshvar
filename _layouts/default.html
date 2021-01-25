@@ -2,7 +2,7 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
 <head>
 
 {% if site.google-analytics %}
@@ -30,6 +30,15 @@ layout: compress
 <meta name=author content="{{ site.name }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml"/>
 <meta name="google-site-verification" content="5yTVGipNgEj_T4EaMDBrSh-1xf_sIr16dVoPp8EzPAQ" />
+
+<!-- Open Graph https://ogp.me -->
+<meta property="og:site_name" content="{{ site.name }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:title" content="{{ page_title }}" />
+<meta property="og:description" content="{% if page.og_description %}{{ page.og_description }}{% else %}{{ site.description }}{% endif %}" />
+<meta name="image" property="og:image" content="{% unless site.external-image %}{{ site.url }}/assets/images/{% endunless %}{{ site.picture }}" />
+<meta property="og:image:alt" content="{{ site.name }}" />
 
 <style>
 {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
