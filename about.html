@@ -1,9 +1,10 @@
 ---
 layout: page
 title: About
----
 
-<img alt="Profile Image" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+og_description: 
+---
+<img alt="{{ site.name }}" src="{% unless site.external-image %}{{ site.url }}/assets/images/{% endunless %}{{ site.picture }}" />
 <h1 class="title" style="margin-bottom: 0">{{ site.name }}</h1>
 <h2 class="description" style="margin-top: 0">{{ site.bio }}</h2>
 

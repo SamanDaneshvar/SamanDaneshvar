@@ -9,26 +9,26 @@ layout: compress
 	{% include google-analytics.html %}
 {% endif %}
 
-<title>
-	{% if page.title_override %}
-		{{ page.title_override }}
-	{% elsif page.title == "Home" %}
-		{{ site.name }} | {{ site.bio }}
-	{% else %}
-		{{ page.title }} | {{ site.name }}
-	{% endif %}
-</title>
-
-<meta name="description" content="{{ site.description }}">
-<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}"/>
 <!-- Note that in Liquid, *nil* is not equal to *false*, even though both evaluate to *falsy* -->
 {% if page.sitemap == false %}
 	<meta name="robots" content="noindex">
 {% endif %}
+
+{% if page.title_override %}
+	{% assign page_title = page.title_override %}
+{% elsif page.title == "Home" %}
+	{% capture page_title %}{{ site.name }} | {{ site.bio }}{% endcapture %}
+{% else %}
+	{% capture page_title %}{{ page.title }} | {{ site.name }}{% endcapture %}
+{% endif %}
+
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}"/>
 <meta charset="utf-8">
 <meta name=viewport content="width=device-width, initial-scale=1">
 <meta name=author content="{{ site.name }}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml"/>
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml"/>
 <meta name="google-site-verification" content="5yTVGipNgEj_T4EaMDBrSh-1xf_sIr16dVoPp8EzPAQ" />
 
 <style>

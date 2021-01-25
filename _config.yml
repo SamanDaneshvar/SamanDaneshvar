@@ -3,14 +3,14 @@ url: https://saman.daneshvar.org
 # Used in the text of the home page and the title and description metatag of all pages.
 name: Saman Daneshvar
 bio: Machine Learning, Data Science, and NLP Engineer
-description: >
+description: >-
   4+ years of experience in ML, Deep Learning, and NLP. Published academic papers and open-source projects.
   Detail-oriented with an eye on the big picture. Strong engineering background and a solid understanding of Python, Java, C, SQL, and more.
 
-# If it's an external image, update below for true
-# better with square images
+# If it's an external image, update below to true.
+# Better with square images
 external-image: false
-picture: assets/images/saman.webp
+picture: saman.webp
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -57,7 +57,7 @@ authors:
     name: Saman Daneshvar
     bio: Data Science, Machine Learning, and NLP Engineer
     external-image: false
-    picture: assets/images/saman.webp
+    picture: saman.webp
     twitter: SamanDaneshvar
 
 # Do you want a larger site? change the option below
