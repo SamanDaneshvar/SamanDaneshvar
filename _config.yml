@@ -2,10 +2,12 @@ url: https://saman.daneshvar.org
 
 # Used in the text of the home page and the title and description metatag of all pages.
 name: Saman Daneshvar
-bio: Software Engineer | Data Scientist
+bio: Data Analyst | Data Scientist
 description: >-
-  4+ years of experience in ML, Deep Learning, and NLP. Published academic papers and open-source projects.
-  Detail-oriented with an eye on the big picture. Strong engineering background and a solid understanding of Python, Java, C, SQL, and more.
+  4+ years of experience in analyzing large datasets, extracting insights, and identifying trends using SQL, Python, R, and various machine learning frameworks.
+  Skilled in statistical analysis, data analysis, regression, and clustering.
+  Proficient in data visualization using Tableau, Power BI, matplotlib, and Excel.
+  Strong command of SQL and NoSQL database management systems.
 
 # If it's an external image, update below to true.
 # Better with square images
@@ -39,7 +41,7 @@ orcid: 0000-0001-8780-7955
 # quora: myquora
 # reddit: myreddit
 # youtube: myyoutube
-facebook: Saman.Daneshvar
+# facebook: Saman.Daneshvar
 # twitter: SamanDaneshvar
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -49,13 +51,13 @@ facebook: Saman.Daneshvar
 # email-username: Saman
 # email-domain: Daneshvar.org
 # Enter the phone numbers in reverse (for bot protection)
-phone: 1316-604 )316(
-phone-url: 1316-604-316-1+:let
+# phone: 1316-604 )316(
+# phone-url: 1316-604-316-1+:let
 
 authors:
   saman:
     name: Saman Daneshvar
-    bio: Data Science, Machine Learning, and NLP Specialist
+    bio: Data Analyst, Data Scientist, Machine Learning Engineer
     external-image: false
     picture: saman.webp
     twitter: SamanDaneshvar
