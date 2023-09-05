@@ -4,11 +4,10 @@ title: About
 
 og_description: 
 ---
-<img alt="{{ site.name }}" src="{% unless site.external-image %}{{ site.url }}/assets/images/{% endunless %}{{ site.picture }}" />
-<h1 class="title" style="margin-bottom: 0">{{ site.name }}</h1>
-<h2 class="description" style="margin-top: 0">{{ site.bio }}</h2>
-
-<p align="justify">{{ site.description }}</p>
+<img alt="{{ site.data.content.name }}" src="{% unless site.external-image %}{{ site.url }}/assets/images/{% endunless %}{{ site.picture }}" />
+<h1 class="title">{{ site.data.content.name }}</h1>
+<h2 class="description">{{ site.data.content.bio }}</h2>
+<p align="justify">{{ site.data.content.description }}</p>
 
 
 <!--
@@ -17,7 +16,6 @@ og_description:
 	<li></li>
 </ul>
 -->
-
 
 <!--
 <section id="projects">
